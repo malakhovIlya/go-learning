@@ -10,3 +10,13 @@ func main() {
 
 	fmt.Println(EurToRub)
 }
+
+func getUserInput() {
+	var dataUser string
+	fmt.Print("Enter your data: ")
+	fmt.Scan(&dataUser)
+}
+
+func calculate(amount float64, fromCurrency, toCurrency string) float64 {
+	return amount
+}
